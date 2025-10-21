@@ -1,3 +1,11 @@
-document.addEventListener('DOMContentLoaded', function(){
-    console.log("A la grande le puse Cuca");
+//     document.addEventListener('DOMContentLoaded', function(){
+//    console.log("inicia juego");
+//     bucleInfinito.bucle();
+//    });
+
+let start = document.getElementById('start');
+
+
+start.addEventListener('click', function(){
+    bucleInfinito.bucle();
 });
