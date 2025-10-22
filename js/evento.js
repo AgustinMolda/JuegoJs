@@ -1,6 +1,6 @@
     document.addEventListener('DOMContentLoaded', function(){
         console.log("inicia juego");
-        //console.log("Tomamos medidas");
+        let a1 = new area(0,30,100,100);
         medidas.tomaMedida();
     });
 
